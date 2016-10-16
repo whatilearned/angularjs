@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<title>AngluarJS</title>
+    <script src="node_libs/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body ng-controller="HomeCtrl">
+
+<h1>Basic Angularjs Page</h1>
+<p>Hi, this is {{name}}  <br/>
+This is name after apply filter {{fltName}}    
+</p>
+    <input type="text" ng-model="myinput"/>  {{myinput}}
+<ol>
+    <li>{{messageG}}</li>
+    <li>{{messageG|findbad:'bad' }} </li>
+    <li>{{messageG|findbad:'good' }}  </li>
+
+</ol>
+    <ol>
+        <li>{{clickMessage}} this will changes after click</li>
+        <li>{{::clickMessage}} This will not change because of 1time binding</li>
+    </ol>
+    <h2 ng-click="getClick()">click me</h2>
+</body>
+</html>

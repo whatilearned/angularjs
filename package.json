@@ -1,0 +1,28 @@
+{
+  "name": "angularjs",
+  "version": "1.0.0",
+  "description": "Angularjs Examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatilearned/angularjs.git"
+  },
+  "keywords": [
+    "Angularjs",
+    "angular",
+    "1"
+  ],
+  "author": "Ramesh.Raju.Alluri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whatilearned/angularjs/issues"
+  },
+  "homepage": "https://github.com/whatilearned/angularjs#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "express": "^4.14.0"
+  }
+}
